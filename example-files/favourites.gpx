@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd+ 3.9.9" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https://osmand.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>favourites</name>
+  </metadata>
+  <wpt lat="43.2363701" lon="76.9615479">
+    <name>"European" Backpackers Hostel</name>
+    <type>stayed overnight</type>
+    <cmt>Amenity:"European" Backpackers Hostel: man_made:building</cmt>
+    <extensions>
+      <osmand:color>#b41010a0</osmand:color>
+    </extensions>
+  </wpt>
+  <wpt lat="41.7000777" lon="44.7990923">
+    <name>Another POI</name>
+    <type>POI</type>
+    <extensions>
+      <osmand:color>#b41010a0</osmand:color>
+    </extensions>
+  </wpt>
+</gpx>
