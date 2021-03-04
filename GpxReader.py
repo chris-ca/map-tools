@@ -64,12 +64,3 @@ def OsmandFavouritesReader(xmlfile: str, ns={'ns0': 'http://www.topografix.com/G
             pass
 
         yield r
-
-def MyFavouritesReader(xmlfile: str):
-    for r in OsmandFavouritesReader(xmlfile):
-        """ parse 'description' field for iso date strings and add as separate key to dictionary """
-        if 'description' in r:
-            rx_result = re.search('([0-9]{4}-[0-9]{2}-[0-9]{2})', r['description'])
-            if rx_result:
-                r['overnight_date'] = rx_result[1] 
-        yield r 
