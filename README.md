@@ -1,5 +1,6 @@
 ## GpxReader
 Parse GPX file (e.g. OsmAnd [favourites.gpx](example-files/favourites.gpx)) and turn waypoints (aka wpt nodes) into Python dictionary structure.
+
 **Example usage**
 ```
 from GpxReader import OsmandFavouritesReader
